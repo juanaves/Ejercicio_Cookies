@@ -16,7 +16,7 @@ echo'En la siguiente página deberá aparecer el número de visitas que realiza 
   else 
   { 
     // Caduca en un año 
-    setcookie('contador', 1, time() + 365 * 24 * 60 * 60); 
+    setcookie('contador', 1, time() + 31536000); 
     $mensaje = 'Bienvenido a nuestra página web'; 
     echo $mensaje;
   } 
